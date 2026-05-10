@@ -11,7 +11,7 @@ A Convolutional Neural Network (CNN) trained on the MNIST dataset that recognize
 
 ## 🎬 Demo
 
-
+<img width="800" height="425" alt="Image" src="https://github.com/user-attachments/assets/b8ad45c3-a06b-433b-9597-ad88f2d78ed9" />
 
 > Draw any digit on the canvas, hit **Predict**, and the CNN returns the result with confidence scores for all 10 digits.
 
