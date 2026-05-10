@@ -9,6 +9,14 @@ A Convolutional Neural Network (CNN) trained on the MNIST dataset that recognize
 
 ---
 
+## 🎬 Demo
+
+
+
+> Draw any digit on the canvas, hit **Predict**, and the CNN returns the result with confidence scores for all 10 digits.
+
+---
+
 ## 📸 Features
 
 - Draw any digit (0–9) on an interactive canvas
@@ -31,43 +39,6 @@ digit-recognizer/
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-## 🚀 Setup & Run
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/hasanjaved180598/digit-recognizer.git
-cd digit-recognizer
-```
-
-### 2. Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate        # Mac/Linux
-venv\Scripts\activate           # Windows
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Train the model (run once)
-```bash
-python model/train_model.py
-```
-This downloads MNIST automatically, trains the CNN, and saves the model to `model/saved/best_model.keras`.
-
-### 5. Launch the app
-```bash
-streamlit run app.py
-```
-
-Open `http://localhost:8501` in your browser, draw a digit, and hit **Predict**.
-
----
 
 ## 🧠 Model Architecture
 
@@ -129,7 +100,4 @@ Dense — 10 neurons, Softmax            ← probability per digit (0–9)
 
 ---
 
-## 👤 Author
-
-**Hasan Javed** — Flutter & ML Developer  
-[GitHub](https://github.com/hasanjaved180598) · [LinkedIn](https://linkedin.com/in/hasanjaved180598)
+> *Draw it. Predict it. Neural networks never lie.* 🧠✏️
