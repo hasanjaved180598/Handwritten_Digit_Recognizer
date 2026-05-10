@@ -1,14 +1,3 @@
-"""
-train_model.py
---------------
-Trains a Convolutional Neural Network (CNN) on the MNIST dataset.
-Run this file ONCE to generate and save the model.
-The saved model is then loaded by the Streamlit app (app.py).
-
-Usage:
-    python model/train_model.py
-"""
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt

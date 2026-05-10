@@ -1,17 +1,3 @@
-"""
-app.py
-------
-Streamlit web app for the Handwritten Digit Recognizer.
-Loads the pre-trained CNN model and lets users draw a digit on a canvas,
-then predicts what digit it is with confidence scores.
-
-Usage:
-    streamlit run app.py
-
-Requirements:
-    Make sure you have run  `python model/train_model.py`  first.
-"""
-
 import numpy as np
 import streamlit as st
 from PIL import Image, ImageOps
